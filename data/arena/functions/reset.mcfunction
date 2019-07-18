@@ -2,6 +2,9 @@
 gamerule doMobSpawning false 
 gamerule doWeatherCycle false
 
+#Spawn
+setworldspawn 0 4 0
+
 
 
 # Create Level Objective

@@ -1,3 +1,9 @@
+# Game rules
+gamerule doMobSpawning false 
+gamerule doWeatherCycle false
+
+
+
 # Create Level Objective
 scoreboard objectives add level dummy "Level"
 # Set Level to 1
@@ -9,6 +15,9 @@ execute as @a at @s run scoreboard objectives setdisplay sidebar level
 scoreboard objectives add LevelKillCount totalKillCount "Level Kill Count"
 # Set LevelKillCount to 0
 scoreboard players set @a LevelKillCount 1
+
+
+
 
 
 
